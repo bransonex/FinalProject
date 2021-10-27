@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+.uppercases-spacing{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-decoration: none;
+}
+header h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+header{background-color: rgb(28, 0, 139);}
+
+header nav{
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+header nav a{
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding-right: 5px;
+    padding-left: 5px;
+    color:antiquewhite;
+    font-weight: 700;
+    height: 3rem;
+}
+header nav a:hover{
+    cursor: pointer;
+    text-shadow: dimgray 3px 3px;
+    color: violet;
+}
+header nav i{
+    font-size: 20px;
+    color: darkgray;
+}
+main{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+main h2{
+    text-align: center;
+}
+div.info{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 60%;
+}
+.info p{
+    width: 37.5rem;
+    padding-left: 5rem;
+}
+.info-img-container img{
+    width: 37.5rem;
+}
+/*pets cards*/
+.pets{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 1rem;
+}
+.pet{
+    background-color: #dedede;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding-bottom: 1rem;
+
+}
+.pet li{
+    display: flex;
+    margin-left: 3rem;
+    text-align: center;
+}
+.pet h5{
+    text-align: center;
+}
+.btn-outline-danger{
+    color: orangered;
+}
+.highlight{
+    background-color: red;
+}
+footer{
+    background-color: rgb(28, 0, 139);
+    color: white;
+    text-align: center;
+    font-size: .75rem;
+}
+.index-pets{
+    display: flex;
+    justify-content: center;
+}
+.index-pets table{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.index-pets th, td{
+    padding-left: 2rem;
+}
+.index-pet-label{
+    text-align: center;
+}
